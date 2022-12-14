@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Menu responsivo</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">LOGO</div>
+
+    <div class="menu-btn">
+      <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+    </div>
+
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Serviços</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section class="main-container">
+      <form class="form">
+        <h2>Formulário de cadastro</h2>
+
+        <input class="inputs" type="text" id="nome" placeholder="Digite seu nome" required>
+
+        <input type="email" id="email" class="inputs" required placeholder="Digite seu email email@dominio.com">
+
+        <input type="password" id="password" class="inputs" required placeholder="Digite sua senha">
+        
+				<input type="tel" id="telefone" class="inputs" required placeholder="Digite seu telefone (XX)XXXXX-XXXX">
+
+        <textarea cols="50" rows="10" id="mensagem" class="inputmesnsagem" placeholder="Digite uma mensagem..." required></textarea>
+
+        <input type="submit" class="submit" value="Enviar">
+      </form>
+  </section>
+
+  <footer>
+    <p>
+     Desenvolvido por @ Weslei Schmitt
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
